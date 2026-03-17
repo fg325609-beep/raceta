@@ -58,6 +58,8 @@ header .container .navbar ul li a {
 }
 
 main section .container .section_one {
+  display: flex;
+  align-items: center;
   padding: 50px 0;
 }
 main section .container .section_one .section_one_left {
@@ -112,4 +114,12 @@ main section .container .section_one .section_one_left span a:hover {
 }
 main section .container .section_one .section_one_left span a i {
   background: none;
+}
+main section .container .section_one .section_one_right {
+  width: 45%;
+}
+main section .container .section_one .section_one_right img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

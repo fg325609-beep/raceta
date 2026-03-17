@@ -71,6 +71,8 @@ main{
     section{
         .container{
             .section_one{
+                display: flex;
+                align-items: center;
                 padding: 50px 0;
                 .section_one_left{
                     display: flex;
@@ -129,6 +131,13 @@ main{
                             }
                             
                         }
+                    }
+                }
+                .section_one_right{
+                    width: 45%;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
                     }
                 }
             }
