@@ -359,4 +359,47 @@ footer .container .f_container .ul_centr p a {
   letter-spacing: 0%;
   color: rgb(255, 255, 255);
   opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+  main section .container .section_one {
+    flex-wrap: wrap;
+  }
+  main section .container .section_one .section_one_left h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  main section .container .section_one .section_one_left p {
+    line-height: normal;
+    font-size: 15px;
+  }
+  main section .container .section_one .section_one_left span {
+    flex-wrap: wrap;
+  }
+  main section .container .section_thearee .section_thearee_right {
+    gap: 10px;
+  }
+  main section .container .section_thearee .section_thearee_right h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  main section .container .section_foo ul {
+    width: 100%;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  main section .container .section_foo {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
+  main section .container .section_five .section_five_left {
+    gap: 10px;
+  }
+  main section .container .section_five .section_five_left h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  footer .container .f_container {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */

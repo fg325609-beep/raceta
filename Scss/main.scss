@@ -437,6 +437,88 @@ footer{
 }
 
 
-@media {
+@media(max-width:1000px){
+    main{
+        section{
+
+            .container{
+                .section_one{
+                    flex-wrap: wrap;
+                    .section_one_left{
+                        h1{
+                            font-size: 30px;
+                            line-height: normal;
+                        }
+                        p{
+                            line-height: normal;
+                            font-size: 15px;
+                        }
+                        span{
+                            flex-wrap: wrap;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        section{
+            .container{
+                .section_thearee{
+                    .section_thearee_right{
+                        gap: 10px;
+
+                        h1{
+                            font-size: 30px;
+                            line-height: normal;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        section{
+            .container{
+                .section_foo{
+                    ul{
+                        width: 100%;
+                        max-width: max-content;
+                    }
+                   display: grid;
+                   grid-template-columns: auto auto auto auto auto auto auto;
+                }
+            }
+        }
+
+
+        section{
+            .container{
+                .section_five{
+                    .section_five_left{
+                        gap: 10px;
+                        h1{
+                            font-size: 30px;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .container{
+            .f_container{
+                flex-wrap: wrap;
+            }
+        }
+    }
     
+}
+
+
+@media(max-width:700px){
+    
+
 }
