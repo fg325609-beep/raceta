@@ -402,4 +402,18 @@ footer .container .f_container .ul_centr p a {
   footer .container .f_container {
     flex-wrap: wrap;
   }
+}
+@media (max-width: 700px) {
+  main section .section_one {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  main section .section_one .section_one_left {
+    text-align: center;
+    width: 100%;
+  }
+  main section .section_one .section_one_right {
+    text-align: center;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
