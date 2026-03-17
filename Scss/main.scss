@@ -289,4 +289,46 @@ main{
             }
         }
     }
+
+
+
+    section{
+        .container{
+            .section_five{
+                display: flex;
+                align-items: center;
+                .section_five_left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    width: 45%;
+                    h1{
+                        font-family: Open Sans;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 130%;
+                        letter-spacing: 0%;
+                        color: white;
+                        
+                    }
+                    p{
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 160%;
+                        letter-spacing: 0%;
+                        color: white;
+                        opacity: 0.5;
+                        
+                    }
+                }
+                .section_five_right{
+                    width: 45%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
