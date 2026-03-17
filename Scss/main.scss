@@ -334,7 +334,9 @@ main{
 }
 
 
-
+section{
+    padding: 50px 0;
+}
 
 
 footer{
@@ -438,6 +440,13 @@ footer{
 
 
 @media(max-width:1000px){
+    header{
+        .container{
+            .navbar{
+                gap: 20px;
+            }
+        }
+    }
     main{
         section{
 
@@ -534,6 +543,54 @@ footer{
                 }
             }
         }
+
+        section{
+            .container{
+                .section_thearee{
+                    flex-direction: column;
+                    .section_one_left{
+                        width: 100%;
+                    }
+                    .section_thearee_right{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+
+        section{
+            .container{
+                .section_five{
+                    flex-direction: column-reverse;
+                    .section_five_left{
+                        width: 100%;
+                    }
+                    .section_five_right{
+                    }
+                }
+            }
+        }
     }
 
+
+
+    footer{
+        .container{
+            .f_container{
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap: 60px;
+                .one_ul{
+                    width: 100%;
+                }
+                .ul_centr{
+                    width: 100%;
+                }
+                .two_ul{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
