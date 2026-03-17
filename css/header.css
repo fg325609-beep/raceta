@@ -1,4 +1,8 @@
 header .container .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   flex-wrap: wrap;
   padding: 20px 10px;
   background: rgb(5, 12, 24);

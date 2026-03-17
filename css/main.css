@@ -16,6 +16,11 @@
 }
 
 header .container .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   flex-wrap: wrap;
   padding: 20px 10px;
   background: rgb(5, 12, 24);
@@ -58,6 +63,7 @@ header .container .navbar ul li a {
 }
 
 main section .container .section_one {
+  padding-top: 200px;
   display: flex;
   align-items: center;
   padding: 50px 0;
@@ -275,6 +281,10 @@ main section .container .section_five .section_five_right img {
 
 section {
   padding: 50px 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 footer .container .f_container {
