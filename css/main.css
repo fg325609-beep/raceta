@@ -273,6 +273,11 @@ main section .container .section_five .section_five_right img {
   width: 100%;
 }
 
+footer .container .f_container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
 footer .container .f_container .one_ul {
   width: 20%;
   display: flex;
@@ -292,4 +297,27 @@ footer .container .f_container .one_ul p img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+footer .container .f_container .ul_centr {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .container .f_container .ul_centr p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+footer .container .f_container .ul_centr p a {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

@@ -340,6 +340,9 @@ main{
 footer{
     .container{
         .f_container{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
             .one_ul{
                 width: 20%;
                 display: flex;
@@ -358,6 +361,31 @@ footer{
                     object-fit: cover;
                 }
                 
+                }
+            }
+            .ul_centr{
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                p{
+                font-family: Circular Std;
+                font-weight: 450;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: white;
+                
+                a{
+                    font-family: Circular Std;
+                     font-weight: 450;
+                     font-size: 14px;
+                     line-height: 100%;
+                     letter-spacing: 0%;
+                     color: white;
+                     opacity: 0.5;
+                     
+                }
                 }
             }
         }
