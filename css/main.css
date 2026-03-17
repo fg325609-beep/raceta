@@ -55,4 +55,61 @@ header .container .navbar ul li a {
   line-height: 100%;
   letter-spacing: 0%;
   color: #FFFFFF;
+}
+
+main section .container .section_one {
+  padding: 50px 0;
+}
+main section .container .section_one .section_one_left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 45%;
+}
+main section .container .section_one .section_one_left h4 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgb(58, 104, 184);
+}
+main section .container .section_one .section_one_left h1 {
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: white;
+}
+main section .container .section_one .section_one_left p {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  opacity: 0.5;
+  color: white;
+}
+main section .container .section_one .section_one_left span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .container .section_one .section_one_left span a {
+  padding: 20px;
+  background: rgb(58, 104, 184);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_one .section_one_left span a:hover {
+  background: rgb(115, 149, 207);
+}
+main section .container .section_one .section_one_left span a i {
+  background: none;
 }/*# sourceMappingURL=main.css.map */
