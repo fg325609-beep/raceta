@@ -226,52 +226,66 @@ main{
     section{
         .container{
             .section_foo{
-                .marquee{ 
-                    display: flex;
-                    align-items: center;
-                    width: 100%;
-
-                    ul{
-                        border-radius: 5px;
-                        background: rgb(7, 25, 48);
-                        text-align: center;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        gap: 10px;
-                        width: 20%;
-                    h1{
-                        background: none;
-                        font-family: Open Sans;
-                        font-weight: 700;
-                        font-size: 25px;
-                        line-height: 125%;
-                        letter-spacing: 0%;
-                        text-align: center;
-                        color: white;
-                        opacity: 0.5;
-
-                        
-                    }
-                    p{
-                        font-family: Open Sans;
-                        font-weight: 600;
-                        font-size: 16px;
-                        line-height: 160%;
-                        letter-spacing: 0%;
-                        text-align: center;
-                        color: white;
-                        opacity: 0.5;
-                        background: none;
-                        
-                    }
-
-                        img{
-                            width: 30%;
-                            background: none;
+                width: max-content;
+                animation: scroll-left 25s linear infinite;
+                @keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);   
+  }
+}
+                 
+                     display: grid;
+                     grid: auto;
+                     display: flex;
+                     align-items: center;
+                     width: 100%;
+                     gap: 10px;
+                     
+                     ul{
+                         border-radius: 5px;
+                         background: rgb(7, 25, 48);
+                         text-align: center;
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                         gap: 10px;
+                         width: 70%;
+                         h1{
+                             background: none;
+                             font-family: Open Sans;
+                             font-weight: 700;
+                             font-size: 23px;
+                             line-height: 125%;
+                             letter-spacing: 0%;
+                             text-align: center;
+                             color: white;
+                             opacity: 0.5;
+                             
+                             
+                            }
+                            p{
+                                font-family: Open Sans;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 160%;
+                                letter-spacing: 0%;
+                                text-align: center;
+                                color: white;
+                                opacity: 0.5;
+                                background: none;
+                                
+                            }
+                            
+                            img{
+                                width: 30%;
+                                background: none;
+                            }
                         }
-                    }
-                }
+                    
+                
             }
         }
     }
