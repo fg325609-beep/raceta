@@ -159,4 +159,120 @@ main{
             }
         }
     }
+
+
+    section{
+        .container
+        .section_thearee{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .section_thearee_left{
+                width: 45%;
+                img{
+                    width: 100%;
+                }
+            }
+            .section_thearee_right{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                h1{
+                    color: white;
+                    font-family: Open Sans;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                    
+                }
+                p{
+                    font-family: Open Sans;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 160%;
+                    letter-spacing: 0%;
+                    color: white;
+                    opacity: 0.5;
+                    
+                }
+                a{
+                    font-family: Open Sans;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: rgba(255, 255, 255, 1);
+                    padding: 10px 20px;
+                    background: rgba(58, 104, 184, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 30%;
+                    border-radius: 5px;
+                    &:hover{
+                        background: rgb(108, 133, 175);
+
+                    }
+
+                    
+                }
+                width: 45%;
+            }
+        }
+    }
+
+
+    section{
+        .container{
+            .section_foo{
+                .marquee{ 
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    ul{
+                        border-radius: 5px;
+                        background: rgb(7, 25, 48);
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 10px;
+                        width: 20%;
+                    h1{
+                        background: none;
+                        font-family: Open Sans;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 125%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: white;
+                        opacity: 0.5;
+
+                        
+                    }
+                    p{
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 160%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: white;
+                        opacity: 0.5;
+                        background: none;
+                        
+                    }
+
+                        img{
+                            width: 30%;
+                            background: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
