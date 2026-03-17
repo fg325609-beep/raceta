@@ -122,4 +122,9 @@ main section .container .section_one .section_one_right img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+main section .container .section_two marquee {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }/*# sourceMappingURL=main.css.map */
